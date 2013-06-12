@@ -1,0 +1,31 @@
+ 
+<ui:composition 
+    xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:f="http://java.sun.com/jsf/core"
+    xmlns:h="http://java.sun.com/jsf/html"
+    xmlns:ui="http://java.sun.com/jsf/facelets">
+
+  
+	<h:panelGroup layout="block" id='mask'></h:panelGroup>
+	<h:panelGroup layout="block" id='mask3'></h:panelGroup>
+
+	<div class="fondoheader">
+      <div class="logotxt">
+    <h1>#{msgs.mpromo_master_page_oxxo}</h1>
+    <span class="promotxt">#{msgs.mpromo_master_page_multi_promotion}</span> </div>
+      <div class="infogral">
+			<div class="fecha">
+				<h:form>
+					<a href="#">#{msgs.mpromo_master_page_welcomeOXXO}</a>
+					<span>|</span>
+					<h:commandLink id="logout" action="#{userLogin.logout}"
+						value="#{msgs.mpromo_master_page_Cerrar_Sesion}" onclick="if (!confirm('Seguro que desea salir?')) return false" />
+					<h:commandLink id="logoutTimeOut" action="#{userLogin.logout}" value=""/>
+					</h:form>
+					
+			</div>
+			<div class="fecha">
+				 <div class="FloatLeft mrgnR15" id = "time"></div>#{msgs.mpromo_master_page_hello}, #{sessionScope['UserDetails'].nombreUsuario}</div>
+  </div>
+      <div class="clear"></div> </div>
+</ui:composition>

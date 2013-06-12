@@ -1,0 +1,41 @@
+<ui:composition
+	xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:p="http://primefaces.org/ui">
+	
+
+
+<p:dataTable value="#{documentBean.documents}" var = "document" >
+
+<p:column headerText="ID">
+<h:outputText value = "#{document.id}"></h:outputText>
+</p:column>
+
+<p:column headerText="Name"  filterBy="#{document.name}" filterMatchMode="exact">
+<h:outputText value = "#{document.name}"></h:outputText>
+</p:column>
+
+
+<p:column headerText="Author">
+<h:outputText value = "#{document.author}"></h:outputText>
+</p:column>
+
+<p:column headerText="Status">
+<h:outputText value = "#{document.status}"></h:outputText>
+</p:column>
+
+<p:column headerText="Issue number">
+<h:outputText value = "#{document.issueNumber}"></h:outputText>
+</p:column>
+
+<p:column headerText="Action">
+E/V/D/D
+</p:column>
+
+</p:dataTable>
+	
+	
+</ui:composition>
+	

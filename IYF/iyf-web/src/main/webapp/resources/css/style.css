@@ -1,0 +1,263 @@
+@charset "utf-8";
+/* CSS Document */
+*{ padding:0; margin:0;}
+
+body,td,th {
+	font-family:  Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000;
+}
+body {
+	background-color: #FFFFFF;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000;
+}
+
+.FloatLeft {
+	float: left;
+}
+
+.FloatRight {
+	float: right;
+}
+
+img {
+	border:0;
+	outline: none;
+}
+
+a:link,a:visited {
+	color: #666666;
+	outline: none;
+}
+
+a:hover {
+	color: #CC0000;
+}
+/* fin Generales*/
+
+/* Header */
+.fondoheader {
+	background:url(../resources/images/header_tile.jpg) left top repeat-x;
+	height: 109px;
+	margin:0;
+	padding:0 32px;
+}
+
+
+/*--------------------------- New Styling --------------------*/
+.MainBanner {
+	margin: 0 auto;
+	width: 750px;
+	height: 257px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.MainContentAreaWrapper {
+	padding: 0;
+	margin:0 30px 0 32px;
+}
+
+.MainContentArea {
+	/* width: 100%; */
+	margin: 0;
+	padding: 0;
+	/* float: left; */
+	background: #e8e8e8;
+}
+
+.RoundCornerTop {
+	float: left;
+	width: 100%;
+	height: 7px;
+}
+
+.CornerTopLeft {
+	float: left;
+}
+
+.CornerTopRight {
+	float: right;
+}
+
+.FormArea {
+	float: left;
+	width: 980px;
+	padding: 0 10px 0 10px;
+}
+
+.CornerDownLeft {
+	float: left;
+}
+
+.CornerDownRight {
+	float: right;
+}
+
+.TableStyle {
+	border: #999 1px solid;
+	border-bottom: none;
+	border-right: none;
+}
+
+.BorderNone {
+	border-bottom: none;
+}
+
+.TableBgColor {
+	background: none repeat scroll 0 0 #E8E8E8;
+}
+
+.TableStyle {
+	-moz-border-bottom-colors: none;
+	-moz-border-image: none;
+	-moz-border-left-colors: none;
+	-moz-border-right-colors: none;
+	-moz-border-top-colors: none;
+	border-color: #999999 -moz-use-text-color -moz-use-text-color #999999;
+	border-style: solid none none solid;
+	border-width: 1px medium medium 1px;
+}
+
+.TableStyle th {
+	background: none repeat scroll 0 0 #DCDCDC;
+	border-bottom: 1px solid #999999;
+	border-right: 1px solid #999999;
+	font-weight: normal;
+	padding: 6px;
+}
+
+.TableStyle td {
+	border-bottom: 1px solid #999999;
+	border-right: 1px solid #999999;
+	padding: 6px;
+}
+
+
+.gridbg {
+	background-color: #e6e7e8;
+}
+
+.clear {
+	clear: both;
+	height: 0;
+	line-height: 0;
+	font-size: 0;
+}
+
+.mrgntop25 {
+	margin-top: 25px !important ;
+}
+.mrgntop21 {
+	margin-top: 21px !important ;
+}
+
+.mrgnR50 {
+	margin-right: 50px !important;
+}
+
+.mrgnR5 {
+	margin-right: 5px !important;
+}
+
+.mrgnL5 {
+	margin-left: 5px !important;
+}
+
+.mrgnR10 {
+	margin-right: 10px !important;
+}
+
+.mrgnR15 {
+	margin-right: 15px !important;
+}
+
+.mrgnL15 {
+	margin-left: 15px !important;
+}
+
+.mrgnL25 {
+	margin-left: 25px !important;
+}
+
+.padbtm25 {
+	padding-bottom: 25px !important;
+}
+
+.mrgnR20 {
+	margin-right: 20px !important;
+}
+.spacer {
+	height: 25px;
+	line-height: 25px;
+}
+
+.pdR5{padding-right:5px;}
+
+.pdT2{padding-top:2px;}
+
+.spacer5{ height:5px; line-height:5px;}
+.spacer2{ height:2px; line-height:2px;}
+.alignLeft{ text-align:left;}
+.alignRight{ text-align:right;}
+.alignCenter{ text-align:center;}
+.alignLeft_vt{ text-align:left; vertical-align:top;}
+.alignCenter_vt{ text-align:center; vertical-align:top;}
+
+#Footer {
+    background: url("../resources/images/FooterLine.png") repeat-x scroll left top #FFFFFF;
+    display: block;
+    margin-top: 25px;
+}
+
+.footerDiv {
+    background: url("../resources/images/FooterLine.png") repeat-x scroll left top #FFFFFF;
+    display: block;
+    margin-top: 25px;
+}
+
+.MiddleFooterArea {
+	height:44px;
+	padding-top:25px;
+	line-height: 20px;
+}
+
+.OxxoFooterLogo {
+	float:left;
+	color:#212124;
+	font-weight:bold;
+	padding:0 18px 0 36px;
+	background: url(../resources/images/OxxoSmallLogo.png) left center no-repeat;
+	height:20px;
+}
+
+.ProblemContact {
+color:#706d67;
+font-weight:bold;
+padding:0 10px 0 0;
+}
+
+.EmailAddress {
+	font-weight:bold;
+	padding-right:10px;
+}
+.EmailAddress a {
+	color:#2049a1;
+	text-decoration:none;
+	background: url(../resources/images/EmailIcon.png) left center no-repeat;
+	display:inline-block;
+	padding-left:25px;
+	height:20px;
+}
+.EmailAddress a:hover {
+	text-decoration:underline;
+}
+.versionText {
+	float:right;
+	font-weight:bold;
+	font-size:12px;
+	color:#706d67;
+	line-height: normal !important;
+}

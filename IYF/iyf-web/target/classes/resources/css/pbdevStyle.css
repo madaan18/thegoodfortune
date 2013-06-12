@@ -1,0 +1,1331 @@
+@charset "utf-8";
+/* CSS Document */
+*{ padding:0; margin:0;}
+
+body,td,th {
+	font-family:  Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000;
+}
+body {
+	background-color: #FFFFFF;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000;
+}
+
+.FloatLeft {
+	float: left;
+}
+
+.FloatRight {
+	float: right;
+}
+
+img {
+	border:0;
+	outline: none;
+}
+
+a:link,a:visited {
+	color: #666666;
+	outline: none;
+}
+
+a:hover {
+	color: #CC0000;
+}
+/* fin Generales*/
+
+/* Header */
+.fondoheader {
+	background:url(../resources/images/header_tile.jpg) left top repeat-x;
+	height: 109px;
+	margin:0;
+	padding:0 32px;
+}
+
+.tituloportal {
+	padding: 10px;
+	color: #FFFFFF;
+	font-size: 18px;
+	text-align: right;
+	font-weight: bold;
+	display: inline;
+	float: right;
+	position: static;
+}
+
+.fecha {
+	font-weight: bold;
+	font-size:12px;
+	color: #FFFFFF;
+	text-decoration: none;
+	text-align: right;
+	position: static;
+}
+
+.fecha a:link,.fecha a:visited {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.fecha a:hover {
+	color: #F9D002;
+}
+
+.bienvenido {
+	font-weight: bold;
+	color: #FFFFFF;
+	float: left;
+}
+
+.logotipo {
+	display: table-cell;
+	text-align: center;
+	width: 336px;
+	height: 59px;
+	vertical-align: middle;
+	float: left;
+	padding-top: 10px;
+	padding-left: 10px;
+}
+
+.logotipo * {
+	vertical-align: middle;
+}
+
+.infogral {
+	float: right;
+	padding:0;
+}
+
+/*--------------------------- New Styling --------------------*/
+.MainBanner {
+	margin: 0 auto;
+	width: 750px;
+	height: 257px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.StepTab{
+	width:940px;
+	padding:0;
+	height:38px;
+}
+
+.ArrowFirst {
+	float: left;
+	height: 39px;
+	line-height: 39px;
+	color: #FFF;
+	font-size: 12px;
+	font-weight: bold;
+	padding:0 0px 0 10px;
+	background: url(../resources/images/ArrowBgHover.png) left top no-repeat;
+}
+
+.ArrowFirstNormal {
+	float: left;
+	height: 39px;
+	line-height: 39px;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 0 0px 0px 10px;
+	background: url(../resources/images/ArrowBgNormal.png) left top
+		no-repeat;
+}
+
+.ArrowFirstNormal a {
+	color: #000000;
+	text-decoration: none;
+}
+
+.ArrowFirstNormal a:hover {
+	color: #b4001c;
+	text-decoration: none;
+}
+
+.ArrowHead {
+	float: left;
+	width: 20px;
+	position: relative;
+	background: url(../resources/images/ArrowHeadNormal.png) left top
+		no-repeat;
+}
+.ArrowHeadLast {
+	float: left;
+	width: 6px;
+	position: relative;
+}
+
+.ArrowRest {
+	float: left;
+	height: 39px;
+	line-height: 39px;
+	margin-left: -19px;
+	font-size: 12px;
+	font-weight: bold;
+	padding:0 0px 0 25px;
+	background: url(../resources/images/ArrowBgNormal.png) -3px top
+		no-repeat;
+}
+
+.ArrowRest a, .ArrowLast a {
+	color: #000;
+	text-decoration: none;
+}
+
+.ArrowRest a:hover, .ArrowLast a:hover {
+	color: #b4001c;
+	text-decoration: none;
+}
+
+.ArrowRestHover {
+	float: left;
+	height: 39px;
+	line-height: 39px;
+	color: #fff;
+	margin-left: -20px;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 0 0px 0px 25px;
+	background: url(../resources/images/ArrowBgHover.png) left top no-repeat;
+}
+
+
+.ArrowLast{
+	float:left;
+	height:39px;
+	line-height: 39px;
+	margin-left:-19px;
+	font-size:12px;
+	font-weight:bold;
+	padding: 0px 0px 0 25px;
+	background:url(../resources/images/ArrowBgNormal.png) top no-repeat;
+}
+.ArrowLastHover{
+	background: url("../resources/images/ArrowBgHover.png") top no-repeat;
+	float:left;
+	height:39px;
+	line-height: 39px;
+	color:#fff;
+	margin-left:-19px;
+	font-size:12px;
+	font-weight:bold;
+	padding:0 0 0 25px;
+}
+
+.MainContentAreaWrapper {
+	padding: 0;
+	margin:0 30px 0 32px;
+}
+
+.MainContentArea {
+	/* width: 100%; */
+	margin: 0;
+	padding: 0;
+	/* float: left; */
+	background: #e8e8e8;
+}
+
+.RoundCornerTop {
+	float: left;
+	width: 100%;
+	height: 7px;
+}
+
+.CornerTopLeft {
+	float: left;
+}
+
+.CornerTopRight {
+	float: right;
+}
+
+.FormArea {
+	float: left;
+	width: 980px;
+	padding: 0 10px 0 10px;
+}
+
+.CornerDownLeft {
+	float: left;
+}
+
+.CornerDownRight {
+	float: right;
+}
+
+.TableStyle {
+	border: #999 1px solid;
+	border-bottom: none;
+	border-right: none;
+}
+
+.GridDiv {
+	/* float: left;
+	width: 318px;
+	margin-left: 10px; */
+	height: 500px;
+	
+	/*overflow: scroll;*/
+	overflow-x: hidden;	
+	overflow-y:scroll;
+}
+
+.ArrowBox {
+	float: left;
+	margin: 100px 0 0 10px;
+}
+
+#emptyDataTable .ArrowBox {
+	float: left;
+	margin: 100px 0 0 9px;
+}
+
+.ArtSlected {
+	float: left;
+	width: 300px;
+	height: 250px;
+	overflow: auto;
+	margin: 0px 0 0 10px;
+}
+
+.GridBox {
+	float: left;
+	width: 100%;
+	margin: 0px 20px 0 0px;
+}
+
+.ErrorBox {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+}
+
+.ErrorDiv {
+	margin: 0 auto;
+	width: 950px;
+	background: #e8e8e8;
+	margin-top: 200px;
+	border: #999 2px solid;
+	padding: 30px;
+}
+
+.ErrorTextDiv {
+	width: 100%;
+	text-align: center;
+	color: #FF0000;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.NormalTextDiv {
+	width: 100%;
+	text-align: center;
+	font-size: 12px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.GridDivBox {
+	width: 100%;
+}
+
+.ErrorTextColor {
+	color: #FF0000;
+	font-weight: bold;
+}
+
+.WarningTextColor {
+	color: #F90;
+	font-weight: bold;
+}
+
+.CheckBoxBorder {
+	float: left;
+	width: auto;
+	padding-right: 3px;
+	border: #999 1px dashed;
+}
+
+.CheckBoxBorderMargin {
+	margin: 6px 0 0 5px;
+}
+
+/*------------------------ Form Styling ----------------------*/
+.DropDownStyle {
+	width: 245px;
+	margin-top: 3px;
+}
+
+.DropDownStyle2 {
+	width: 245px;
+}
+
+.DropDownStyleSmall{
+	width:194px;
+}
+
+.DropDownStyleSmall2 {
+	width: 80px !important;
+}
+
+.DropDownStyleSmall3 {
+	width: 170px;
+}
+
+.DropDownStyleSmallSearch {
+	width: 201px !important;
+}
+
+.BrowseStyle {
+	width: 256px !important;
+	height: 24px !important;
+	margin-bottom: 5px !important;
+}
+
+.TextBoxStyle {
+	width: 200px;
+}
+
+.TextBoxStylePrmo-Detail {
+	width: 200px;
+	margin-top: 3px;
+}
+
+.TextBoxStylePromo {
+	width: 198px;
+	margin-top: 3px;
+}
+
+.TextBoxStyle2 {
+	width: 235px;
+}
+
+.TextBoxSmallStyle {
+	width: 30px;
+}
+
+.TextBoxSmallStyle2 {
+	width: 50px;
+	margin-top: 6px;
+}
+
+.TextBoxBigStyle {
+	margin-top: 3px;
+    width: 240px;
+}
+
+.TextBoxBigStyle2 {
+	width: 70px;
+	margin-top: 6px;
+}
+
+.TableOutterBorder {
+	border: #999999 1px solid;
+	margin-top: 6px;
+}
+
+.dataSearch{
+	border: #999999 1px solid;
+	margin-top: 6px;
+	padding:5px; 
+	width:251px;
+}
+
+.RightBorder {
+	border-right: #999 1px solid;
+	margin-right: 10px;
+}
+
+.BorderNone {
+	border-bottom: none;
+}
+
+.LeftPadding {
+	padding-left: 10px;
+}
+
+.RightPadding {
+	padding-right: 9px;
+}
+
+.MarginTop {
+	margin-top: 10px;
+}
+
+.MarginRight {
+	margin-right: 0px;
+}
+
+.TextAlignDiv {
+	float: left;
+	width: 114px;
+	*width: 110px;
+}
+
+.TextAlignDiv2 {
+	float: left;
+	width: 108px;
+}
+
+.PaddingAll {
+	padding: 0px;
+}
+
+.GridDropDownStyle {
+	background: none;
+	border: none;
+	font-size: 12px;
+	width: 30px;
+}
+
+.SubHeaderStyle {
+	padding: 5px;
+	color: #000000;
+	font-size: 14px;
+	font-weight: bold;
+	border-bottom: 4px solid #093660;
+}
+
+.GridScrollBox {
+	float: left;
+	width: 957px;
+	overflow: scroll;
+	overflow-y: hidden;
+}
+
+.TableStyle td.PaddingNone {
+	padding: 0px;
+}
+
+.MarginNone {
+	margin: 0px;
+}
+
+.SubHeaderStyling {
+	font-size: 18px;
+	padding-bottom: 7px;
+	border-bottom: #999 1px solid;
+}
+
+.UnderSubHeader {
+	font-size: 14px;
+}
+
+.LinkImg {
+	margin: 0 2px 0 20px;
+	vertical-align: middle;
+}
+
+.TableBgColor {
+	background: none repeat scroll 0 0 #E8E8E8;
+}
+
+.TableStyle {
+	-moz-border-bottom-colors: none;
+	-moz-border-image: none;
+	-moz-border-left-colors: none;
+	-moz-border-right-colors: none;
+	-moz-border-top-colors: none;
+	border-color: #999999 -moz-use-text-color -moz-use-text-color #999999;
+	border-style: solid none none solid;
+	border-width: 1px medium medium 1px;
+}
+
+.TableStyle th {
+	background: none repeat scroll 0 0 #DCDCDC;
+	border-bottom: 1px solid #999999;
+	border-right: 1px solid #999999;
+	font-weight: normal;
+	padding: 6px;
+}
+
+.TableStyle td {
+	border-bottom: 1px solid #999999;
+	border-right: 1px solid #999999;
+	padding: 6px;
+}
+
+.errorMessages {
+	padding: 5px;
+	color: red;
+	font-size: 14px;
+	background: #ffc000;
+}
+
+.errorField {
+	border: 1px solid red !important;
+	box-shadow: none !important;
+}
+
+.case {
+	
+}
+
+/** Added after enhancement done by designer for Article Selection Page*/
+.LeftBorderStyle {
+	border-left: #999 1px solid;
+}
+
+.CategoryLink {
+	color: #666666;
+}
+
+.CategoryLink a {
+	color: #666666;
+	text-decoration: none;
+}
+
+.CategoryLink a:hover {
+	color: #CC0000;
+}
+
+.RoundCornerBottom {
+	float: left;
+	width: 980px;
+	height: 7px;
+	*height: 10px;
+}
+
+.leftPanelSpacing {
+	margin-right: 10px;
+}
+
+#categoryPPOutter {
+	overflow: auto;
+	height: 55px;
+	width: 265px;
+	overflow-x: hidden;
+}
+
+.DataBoxOutterBoreder {
+	border: #999 1px solid;
+	width: 261px;
+	float: left;
+}
+
+/** Added after enhancement done by designer*/
+.TableStyle2 {
+	border: none;
+	overflow: scroll;
+	border-bottom: none;
+	border-right: none;
+}
+
+.TableStyle2 th {
+	padding: 6px;
+	background: #dcdcdc;
+	font-weight: normal;
+	border-bottom: #999 1px solid;
+	border-right: #999 1px solid;
+}
+
+.TableStyle2 td {
+	padding: 6px;
+	border-bottom: #999 1px solid;
+	border-right: #999 1px solid;
+}
+
+.GridBox2 {
+	float: right;
+	width: 293px;
+	margin: 0px 20px 0 0px;
+}
+
+.GridScrollBox2 {
+	overflow: scroll;
+	overflow-x: hidden;
+}
+
+.ButtonAligment {
+	margin-top: 10px;
+	text-align: right;
+}
+
+.ImgAlignment {
+	vertical-align: middle;
+}
+
+a.arr_up {
+	background: url(../resources/images/ArrowUp.png) 0 0 no-repeat;
+	width: 20px;
+	height: 19px;
+	float: right;
+}
+
+a.arr_dwn {
+	background: url(../resources/images/ArrowDown.png) 0 0 no-repeat;
+}
+
+a.TextStyleNone {
+	text-decoration: none;
+}
+
+.BgColorIcon {
+	background: #cccccc;
+}
+.BgColorIcon a{*padding-right: 18px; *display: inline-block; *padding-left: 3px;}
+.TDColorMainGrid {
+	background: #cbcaca;
+}
+
+.WhiteColor {
+	background: #FFFFFF;
+}
+
+.ArticleColor {
+	background: #fcd5b5;
+}
+
+.ArticleColor2 {
+	background: #d7e4bd;
+}
+
+.RowColorGrid {
+	background: #fff1e5;
+}
+
+.RowColorGrid2 {
+	background: #f3f8e8;
+}
+
+.colorTip { /* This class is assigned to the color tip span by jQuery */
+	display: none;
+	position: absolute;
+	left: 50%;
+	top: -55px;
+	padding: 6px;
+	width: 100px;
+	background-color: white;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	line-height: 1;
+	text-decoration: none;
+	text-align: center;
+	text-shadow: 0 0 1px white;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+}
+
+.pointyTip,.pointyTipShadow {
+	/* Setting a thick transparent border on a 0x0 div to create a triangle */
+	border: 6px solid transparent;
+	bottom: -12px;
+	height: 0;
+	left: 50%;
+	margin-left: -6px;
+	position: absolute;
+	width: 0;
+}
+
+.pointyTipShadow {
+	/* The shadow tip is 1px larger, so it acts as a border to the tip */
+	border-width: 7px;
+	bottom: -14px;
+	margin-left: -7px;
+}
+
+.colorTipContainer {
+	position: relative;
+	text-decoration: none !important;
+}
+
+.black .pointyTip {
+	border-top-color: #333;
+}
+
+.black .pointyTipShadow {
+	border-top-color: #111;
+}
+
+.black .colorTip {
+	background-color: #333;
+	border: 1px solid #111;
+	color: #fcfcfc;
+	text-shadow: none;
+}
+
+.Padding_Left {
+	padding-left: 9px;
+}
+
+.IteamsBoxOutter {
+	float: left;
+	width: auto;
+	margin: 0 0 0 190px;
+}
+
+.IteamsBoxOutter2 {
+	float: left;
+	width: auto;
+	margin: 0 0 0 140px;
+}
+
+.IteamsBoxOutter3 {
+	float: left;
+	width: auto;
+	margin: 0 0 0 140px;
+}
+
+.IteamsBoxOutter4 {
+	float: left;
+	width: auto;
+	margin: 0 0 0 190px;
+}
+
+.IteamsBoxOutter5 {
+	float: left;
+	width: auto;
+	margin: 0 0 10px 180px;
+}
+
+.IteamsBox {
+	float: left;
+	text-align: center;
+	margin-right: 5px;
+}
+
+.IteamBoxInner {
+	padding: 5px 5px 5px 5px;
+	width: auto;
+	background: #FFFFFF;
+	border: #000000 1px solid;
+}
+
+.IteamBoxInnerEmpty {
+	padding: 5px 5px 5px 5px;
+	width: auto;
+	background: #999999;
+	border: #000000 1px solid;
+}
+
+.AddIcon {
+	vertical-align: middle;
+	margin-left: 92px;
+	*margin-left: 132px;
+}
+
+.TextBoxStyleSingel {
+	width: 235px;
+}
+/*------------------------ 7-5-2012 ----------------------------*/
+.FormArea2 {
+	padding: 18px;
+}
+
+.inputTextStyle {
+	background-color: transparent !important;
+	border: none !important;
+	box-shadow: none !important;
+}
+
+.TableStyleSearchResults {
+	border: #999 1px solid;
+	border-bottom: none;
+	border-right: none;
+	/* width: 925px; */
+}
+
+.PaddingLeftGrid {
+	padding-left: 7px;
+}
+
+.inputbutton {
+	margin: 0;
+	overflow: visible;
+	padding: 0 10px;
+}
+
+.PaddingRightGrid {
+	padding-right: 7px;
+}
+
+.tabbg {
+	background-color: #E8E8E8;
+	padding: 5px;
+}
+
+.PlazaGrid {
+	height: 350px;
+	overflow: auto;
+}
+
+.setSelecteCategory {
+	background-color: #c9dcee;
+}
+
+.hideSelectItem, .hideCheckBox {
+	display: none !important;
+}
+
+.primarybtn {
+	overflow: visible;
+	padding: 0 10px !important;
+	outline: none;
+	border: none;
+	margin: 0;
+	font-size: 12px;
+	color: #fff;
+	font-weight: bold;
+	background: url(../resources/images/btn_primary.png) left center
+		repeat-x;
+	height: 24px;
+	line-height: 24px;
+	vertical-align: middle;
+	cursor: pointer;
+	padding-bottom: 2px;
+}
+
+.secondarybtn {
+	overflow: visible;
+	vertical-align: middle;
+	padding: 0 10px !important;
+	outline: none;
+	border: none;
+	margin: 0;
+	font-size: 12px;
+	color: #fff;
+	font-weight: bold;
+	background: url(../resources/images/btn_secondary.png) left center
+		repeat-x;
+	height: 24px;
+	line-height: 24px;
+	cursor: pointer;
+	padding-bottom: 2px;
+}
+
+.primarybtn:hover {
+	color: #ffaead;
+}
+
+.secondarybtn:hover {
+	color: #b7c5ff;
+}
+
+input[disabled].primarybtn,input[disabled].secondarybtn {
+	color: #c3c3c3;
+	cursor: default;
+}
+
+.gridbg {
+	background-color: #e6e7e8;
+}
+
+.clear {
+	clear: both;
+	height: 0;
+	line-height: 0;
+	font-size: 0;
+}
+
+.mrgntop25 {
+	margin-top: 25px !important ;
+}
+.mrgntop21 {
+	margin-top: 21px !important ;
+}
+
+.mrgnR50 {
+	margin-right: 50px !important;
+}
+
+.mrgnR5 {
+	margin-right: 5px !important;
+}
+
+.mrgnL5 {
+	margin-left: 5px !important;
+}
+
+.mrgnR10 {
+	margin-right: 10px !important;
+}
+
+.mrgnR15 {
+	margin-right: 15px !important;
+}
+
+.mrgnL15 {
+	margin-left: 15px !important;
+}
+
+.mrgnL25 {
+	margin-left: 25px !important;
+}
+
+.padbtm25 {
+	padding-bottom: 25px !important;
+}
+
+.mrgnR20 {
+	margin-right: 20px !important;
+}
+.spacer {
+	height: 25px;
+	line-height: 25px;
+}
+
+.errorMsgBox{	
+	background:#f4c4b5;
+	border:1px solid #f7d4c9;
+	padding:10px;
+	font-size:12px;
+	color:#58595B;
+	min-width:906px;
+}
+
+.successMsgBox{	
+	background:#ddecc3;
+	border:1px solid #f7faf1;
+	padding:10px;
+	font-size:12px;
+	color:#58595B;
+	min-width:906px;
+}
+
+#dhtmltooltip{
+position: absolute;
+left: -300px;
+width: 250px;
+border: 1px solid #6c6e72;
+padding: 2px;
+background-color: #e3e4e9;
+visibility: hidden;
+z-index: 100;
+/*Remove below line to remove shadow. Below line should always appear last within this CSS
+filter: progid:DXImageTransform.Microsoft.Shadow(color=gray,direction=135);*/
+}
+
+#dhtmlpointer{
+position:absolute;
+left: -300px;
+z-index: 101;
+visibility: hidden;
+}
+
+/*------------------------ 28-5-2012 ----------------------------*/
+
+.GridGroup {
+	float: left;
+	width: 276px;
+	margin-left: 10px;
+}
+.GridDiv2 {
+	height: 500px;
+	border: #999 1px solid;
+	overflow-x: hidden;	
+	overflow-y:scroll;
+}
+
+.DropDown140 {
+	width: 140px !important;
+}
+
+.GridGroup .TableStyle td, .GridGroup .TableStyle th{ height:32px; padding:0 6px;}
+
+.ColWidth25{width:25px;}
+.ColWidth90{width:90px;}
+
+
+.TableStyle3 td{border-bottom: #999 1px solid;
+	border-right: #999 1px solid;padding:6px; verticle-align:top;}
+.TableStyle3 td.last{border-bottom: #999 1px solid;
+	border-right:none;padding:6px; verticle-align:top;}
+	
+.DropDown80{
+	width:86px;
+}
+
+.Input190{
+	width:190px;
+}
+
+.Input243{
+	width:243px;
+}
+
+.pdR5{padding-right:5px;}
+
+.pdT2{padding-top:2px;}
+
+.spacer5{ height:5px; line-height:5px;}
+.spacer2{ height:2px; line-height:2px;}
+.alignLeft{ text-align:left;}
+.alignRight{ text-align:right;}
+.alignCenter{ text-align:center;}
+.alignLeft_vt{ text-align:left; vertical-align:top;}
+.alignCenter_vt{ text-align:center; vertical-align:top;}
+.ColWidth5{width:5%;}
+.ColWidth6{width:6%;}
+.ColWidth10{width:10%;}
+.ColWidth10px{width:10px;}
+.ColWidth7px{width:7px;}
+.ColWidth15{width:15%;}
+.ColWidth18{width:18%;}
+.ColWidth20{width:20%;}
+/* .ColWidth25{width:25%;} */
+.ColWidth30{width:30%;}
+.ColWidth32{width:32%;}
+.ColWidth150{width:150px;}
+.ColWidth159{width:159px;}
+.ColWidth173{width:173px;}
+.ColWidth80{width:80px;}
+.ColWidth97{width:97px;}
+.ColWidth92{width:92px;}
+.ColWidth88{width:88px;}
+.mrgnR22{margin-right:22px; }
+.pdL5{padding-left:5px;}
+.pdL10{padding-left:10px;}
+.pdL22{padding-left:22px;}
+.pdL30{padding-left:30px;}
+.pdL15{padding-left:15px;}
+.pdL2{padding-left: 2px;}
+.pdR5{padding-right:5px;}
+.pdT4{padding-top:4px;}
+.pdT8{padding-top:8px;}
+.pdT10{padding-top:10px;}
+.pdR15{padding-right:15px;}
+.bdrB{border-bottom:1px solid #999;}
+.width6P{width:6px;}
+
+.MarginCheckBox{
+	margin-top:2px;
+}
+
+.RightMarginCheckBox{
+	margin-left:1px;
+	
+}
+
+.FormAreaCobertura{
+	width:904px;
+	padding:18px;
+}
+
+.FormArea3{
+	padding:18px;
+}
+
+.manfield {
+    color: #AA2925;
+}
+
+.errortxt {
+    border: 1px solid red;
+    margin-top: 6px;
+    width: 240px;
+}
+
+#Footer {
+    background: url("../resources/images/FooterLine.png") repeat-x scroll left top #FFFFFF;
+    display: block;
+    margin-top: 25px;
+}
+
+.footerDiv {
+    background: url("../resources/images/FooterLine.png") repeat-x scroll left top #FFFFFF;
+    display: block;
+    margin-top: 25px;
+}
+.MiddleFooterArea {
+	height:44px;
+	padding-top:25px;
+	line-height: 20px;
+}
+
+.OxxoFooterLogo {
+	float:left;
+	color:#212124;
+	font-weight:bold;
+	padding:0 18px 0 36px;
+	background: url(../resources/images/OxxoSmallLogo.png) left center no-repeat;
+	height:20px;
+}
+
+.ProblemContact {
+color:#706d67;
+font-weight:bold;
+padding:0 10px 0 0;
+}
+
+.EmailAddress {
+	font-weight:bold;
+	padding-right:10px;
+}
+.EmailAddress a {
+	color:#2049a1;
+	text-decoration:none;
+	background: url(../resources/images/EmailIcon.png) left center no-repeat;
+	display:inline-block;
+	padding-left:25px;
+	height:20px;
+}
+.EmailAddress a:hover {
+	text-decoration:underline;
+}
+.versionText {
+	float:right;
+	font-weight:bold;
+	font-size:12px;
+	color:#706d67;
+	line-height: normal !important;
+}
+
+.rdgroup input{ margin-bottom:5px; vertical-align:middle; }
+
+.logotxt{ padding:10px 0 0 0; float:left;}
+.logotxt h1{ font-size:30px; color:#fff; font-weight:bold;}
+.logotxt span.promotxt{ font-size:12px; color:#fff; font-weight:bold;}
+.manfield{ color:#aa2925;}
+
+.fecha {
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+	text-align: right;
+	padding:12px 0 0 0;
+}
+.fecha span{ display:inline-block; margin:0 5px;}
+.fecha a:link, .fecha a:visited {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.fecha a:hover {
+	color: #F9D002;
+}
+
+.fondoheaderlower{
+	width:100%;
+}
+
+.PanelRightSearch{
+	float:right;
+	width:370px;
+}
+
+.PanelLeftSearch{
+	float:left;
+	width:500px;
+}
+
+a.create {
+	background: url(../resources/images/AddIcon.png) left center no-repeat;	display:inline-block;padding-left:20px;	height:16px;
+}
+
+a.exportExcel {
+	background: url(../resources/images/ExcelIcon.png) left center no-repeat;	display:inline-block;padding-left:22px;	height:22px;
+}
+
+
+.pagehead{ font-size:14px; font-weight:bold;}
+.pagehead span{color:#aa2925;}
+
+.hideDiv {
+	display: none !important;
+}
+
+.ui-selectonemenu-trigger { 
+    background: url(../resources/images/dropNode1.png) !important;
+    border-top-width: none ! important;
+}
+
+.ui-state-default {
+    box-shadow: 0 0 0 #FFFFFF inset !important;
+}
+.ui-inputfield, .ui-widget-content .ui-inputfield, .ui-widget-header .ui-inputfield {
+    box-shadow: 0 0 0 0 #8F8F8F inset !important;
+}
+
+.ui-selectonemenu .ui-selectonemenu-trigger {
+	right: -2px !important;
+	top: -2px !important;
+	height: 21px !important;
+}
+.ui-selectonemenu .ui-selectonemenu-trigger .ui-icon {
+	margin: 3px 0 0 -1px !important;
+}
+
+.height5{ height:5px; line-height:5px;}
+
+.spacer3{ height:3px; line-height:3px;}
+
+.ui-inputfield {
+	padding: 2px!important;
+}
+
+.inputDisabled{
+	background: url("../resources/images/bg-input-dis.png") repeat-x scroll 0 0 #F3F3F3 !important;
+    color: #999999 !important;
+}
+
+.MarginRight36 {
+	margin-right: 36px;
+	display: inline-block;
+}
+
+.errorPageMessage {
+	font-size: 20px; 
+	color: #ff1823;
+	font-weight: bold;
+	height: 370px;
+	line-height: 370px;
+	display: table;
+	vertical-align: middle;
+	text-align: center;
+	margin: auto 0;
+	width: 100%;
+}
+.errorPageMessage span{
+	line-height: normal !important; display: table-cell;vertical-align: middle;text-align: center;
+}
+
+.logoutPageImg{
+	background:  url("../resources/images/portada_imagen_principal_01.jpg") no-repeat center center;
+	
+}
+
+.logoutPageMessage {
+	font-size: 14px; 
+	color: #000;
+	font-weight: bold;
+	height: 370px;
+	background:  url("../resources/images/portada_imagen_principal_01.jpg") no-repeat center center;
+	vertical-align: middle;
+	text-align: center;
+}
+
+
+
+.searchBox td {
+    padding: 4px 0 0 0px;
+}
+
+.Input246{
+	width:246px;
+}
+.pdT5{
+	padding-top: 5px;
+}
+
+.mrgnT2{
+	margin-top: 2px;
+}
+.mrgnT3{
+	margin-top: 3px;
+}
+.width60 {
+width:60px;
+}
+
+.msgAlign{
+	padding-top:3px;
+	line-height:20px;	
+}
